@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- heart -->
+  <path d="M50 38 C50 38 42 28 35 32 C28 36 30 46 50 58 C70 46 72 36 65 32 C58 28 50 38 50 38 Z" fill="#7ecfc0"/>
+  <!-- open hand / palm -->
+  <path d="M20 72 Q18 65 25 62 L45 58 Q48 57 50 58 Q52 57 55 58 L75 62 Q82 65 80 72 Q78 78 70 76 L50 70 L30 76 Q22 78 20 72 Z" fill="#5a7280"/>
+  <!-- wrist -->
+  <rect x="43" y="72" width="14" height="10" rx="3" fill="#5a7280"/>
+</svg>

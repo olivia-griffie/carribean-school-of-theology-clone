@@ -18,7 +18,21 @@
 
         <!-- Logo: primary horizontal (icon + wordmark) -->
         <a href="index.html" class="site-logo">
-          <img src="images/logo/cst-logo-horizontal.png" alt="Caribbean School of Theology" class="site-logo__img" />
+          <img src="images/logo/cst-logo-horizontal.png"
+               alt="Caribbean School of Theology"
+               class="site-logo__img"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <!-- Text fallback shown until PNG is saved -->
+          <span class="site-logo__fallback" style="display:none; align-items:center; gap:12px;">
+            <svg width="48" height="60" viewBox="0 0 48 60" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 20 Q4 4 24 4 Q44 4 44 20 L44 56 L4 56 Z" fill="#2f4ba0"/>
+              <path d="M20 44 Q16 36 18 28 Q20 22 24 20 Q28 22 30 28 Q32 36 28 44 Q26 48 24 46 Q22 48 20 44Z" fill="#fbab3a"/>
+              <path d="M17 40 Q14 34 16 27 Q17 23 20 21" fill="#fbab3a" stroke="#fbab3a" stroke-width="1"/>
+            </svg>
+            <span style="font-family:serif; font-size:14px; font-weight:700; color:#2f4ba0; text-transform:uppercase; letter-spacing:0.05em; line-height:1.2;">
+              Caribbean School<br>of Theology
+            </span>
+          </span>
         </a>
 
         <!-- Mobile toggle -->
@@ -52,7 +66,7 @@
 
   <!-- ── Hero ─────────────────────────────────────── -->
   <section class="hero">
-    <img src="images/hero/hero-graduation.jpg" alt="CST graduation ceremony" class="hero__bg" aria-hidden="true" />
+    <img src="images/hero/heroimage.png" alt="CST graduation ceremony" class="hero__bg" aria-hidden="true" />
     <div class="hero__overlay"></div>
     <div class="container">
       <div class="hero__content">
@@ -145,8 +159,10 @@
 
         <!-- Brand / contact -->
         <div class="footer-brand">
-          <!-- Footer: use stacked/vertical logo (icon + text below) -->
-          <img src="images/logo/cst-logo-stacked.png" alt="Caribbean School of Theology" class="footer-brand__logo" />
+          <img src="images/logo/cst-logo-stacked.png"
+               alt="Caribbean School of Theology"
+               class="footer-brand__logo"
+               onerror="this.onerror=null; this.src='images/logo/cst-icon.png';" />
           <div class="footer-brand__info">
             <p class="footer-brand__name">Caribbean School of Theology</p>
             <address class="footer-brand__address">

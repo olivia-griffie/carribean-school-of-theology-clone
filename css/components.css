@@ -214,11 +214,12 @@
   text-decoration: none;
 }
 
-/* Icon inside button */
+/* Icon inside button — PNG icons inverted to white */
 .btn__icon {
   width: 20px;
   height: 20px;
   object-fit: contain;
+  filter: brightness(0) invert(1);
 }
 
 /* ── Application section ────────────────────────────── */

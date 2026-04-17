@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- teal rings -->
+  <path d="M50 28 a14 14 0 0 1 0 0" fill="#7ecfc0" opacity="0"/>
+  <circle cx="50" cy="36" r="7" fill="#7ecfc0"/>
+  <path d="M35 36 a15 15 0 0 1 30 0" fill="none" stroke="#7ecfc0" stroke-width="4" stroke-linecap="round"/>
+  <path d="M27 36 a23 23 0 0 1 46 0" fill="none" stroke="#5d8f8a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M19 36 a31 31 0 0 1 62 0" fill="none" stroke="#4a7a76" stroke-width="4" stroke-linecap="round"/>
+  <!-- finger -->
+  <rect x="46" y="36" width="8" height="20" rx="4" fill="#5a7280"/>
+  <!-- hand palm -->
+  <path d="M35 54 Q34 62 38 68 Q44 76 50 78 Q56 76 62 68 Q66 62 65 54 L58 56 L58 52 Q58 48 54 48 L54 36 Q54 32 50 32 Q46 32 46 36 L46 48 Q42 48 42 52 L42 56 Z" fill="#5a7280"/>
+</svg>
