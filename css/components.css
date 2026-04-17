@@ -214,12 +214,45 @@
   text-decoration: none;
 }
 
-/* Icon inside button — PNG icons inverted to white */
+/* Icon inside button */
 .btn__icon {
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  flex-shrink: 0;
+  background: white;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+/* Once transparent PNGs are saved, swap to this by adding class .btn__icon--transparent */
+.btn__icon--transparent {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  filter: brightness(0) invert(1);
+}
+
+/* Footer email icon */
+.footer-email-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: rgba(255, 255, 255, 0.75);
+  transition: color var(--transition-fast);
+}
+
+.footer-email-link:hover {
+  color: var(--color-orange);
+  text-decoration: none;
+}
+
+.footer-email-icon {
+  width: 16px;
+  height: 16px;
   object-fit: contain;
   filter: brightness(0) invert(1);
+  flex-shrink: 0;
 }
 
 /* ── Application section ────────────────────────────── */
