@@ -1,0 +1,46 @@
+/* ── Ellograph CF ───────────────────────────────────────
+   Drop font files into /fonts/ and uncomment the weights you have.
+   Common filename patterns from Connary Fagen:
+   EllographCF-Regular, EllographCF-Medium, EllographCF-Bold,
+   EllographCF-ExtraBold, EllographCF-Thin, EllographCF-Light
+   ──────────────────────────────────────────────────────── */
+
+@font-face {
+  font-family: 'Ellograph CF';
+  src: url('../fonts/EllographCF-Regular.woff2') format('woff2'),
+       url('../fonts/EllographCF-Regular.woff')  format('woff'),
+       url('../fonts/EllographCF-Regular.otf')   format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ellograph CF';
+  src: url('../fonts/EllographCF-Medium.woff2') format('woff2'),
+       url('../fonts/EllographCF-Medium.woff')  format('woff'),
+       url('../fonts/EllographCF-Medium.otf')   format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ellograph CF';
+  src: url('../fonts/EllographCF-Bold.woff2') format('woff2'),
+       url('../fonts/EllographCF-Bold.woff')  format('woff'),
+       url('../fonts/EllographCF-Bold.otf')   format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ellograph CF';
+  src: url('../fonts/EllographCF-ExtraBold.woff2') format('woff2'),
+       url('../fonts/EllographCF-ExtraBold.woff')  format('woff'),
+       url('../fonts/EllographCF-ExtraBold.otf')   format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}

@@ -40,6 +40,8 @@
   grid-template-columns: 1fr 280px;
   gap: var(--space-8);
   align-items: start;
+  position: relative;
+  z-index: 1;
 }
 
 .home-content-left {

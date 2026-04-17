@@ -9,7 +9,8 @@
 
   /* Neutrals */
   --color-cream:      #ebe5db;
-  --color-black:      #262626;
+  --color-black:      #000000;
+  --color-cream-overlay: rgba(235, 229, 219, 0.82);
   --color-white:      #ffffff;
   --color-gray-light: #d8d1c6;
   --color-gray:       #888888;
@@ -29,7 +30,7 @@
   /* Typography — Garamond Premier Pro (EB Garamond web sub) + Ellograph CF (Raleway sub) */
   --font-heading: 'EB Garamond', 'Garamond Premier Pro', 'Garamond', Georgia, serif;
   --font-body:    'EB Garamond', Georgia, 'Times New Roman', serif;
-  --font-sans:    'Raleway', 'Ellograph CF', 'Arial', 'Helvetica Neue', sans-serif;
+  --font-sans:    'Ellograph CF', 'Josefin Sans', 'Arial', 'Helvetica Neue', sans-serif;
 
   --text-xs:   0.75rem;
   --text-sm:   0.875rem;
